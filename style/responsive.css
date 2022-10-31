@@ -1,0 +1,145 @@
+@media (max-width: 900px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .account {
+        display: none;
+    }
+
+    .suggestion {
+        display: none;
+    }
+
+    .other_users {
+        display: none;
+    }
+
+    .body_left {
+        padding-right: 0;
+    }
+
+    .body_right {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(245, 245, 245);;
+    }
+}
+
+@media (max-width: 700px) {
+    .header_right {
+        display: none;
+    }
+
+    .responsive_menu {
+        position: fixed;
+        bottom: 0px;
+        height: 45px;
+        background: white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer {
+        height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .body_left {
+        align-items: center;
+        width: auto;
+    }
+    .stories {
+        width: 400px;
+    }
+
+    .new_post {
+        width: 400px;
+    }
+
+    .inputComment {
+        width: 200px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .input_search {
+        width: 140px
+    }
+
+    .search {
+        width: 175px;
+    }
+
+    .body_left {
+        align-items: center;
+    }
+
+    .stories {
+        width: 350px;
+        height: 55px;
+    }
+
+    .user {
+        height: 40px;
+        width: 40px;
+    }
+
+    .user_name {
+        font-size: 10px;
+    }
+
+    .new_post {
+        width: 350px;
+    }
+
+    .inputComment {
+        width: 175px;
+    }
+}
+
+@media (max-width: 350px) {
+    .stories {
+        width: 300px;
+    }
+
+    .new_post {
+        width: 300px;
+    }
+
+    .inputComment {
+        width: 123px;
+    }
+}
+
+@media (max-width: 280px) {
+    .header_center {
+        display: none;
+    }
+
+    .stories {
+        width: 265px;
+    }
+
+    .new_post {
+        width: 265px;
+    }
+
+    .icons {
+        height: 25px;
+    }
+}

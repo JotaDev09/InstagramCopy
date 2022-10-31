@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instaloper</title>
+
+    <link rel="shortcut icon" href="icons/white.png" />
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <script src="script.js"></script>
+
+    <div w3-include-html="templates/header.html"></div>
+</head>
+
+<body onload="render()">
+    <div class="website">
+        <div class="content">
+            <div class="body_left">
+                <div class="stories_padding">
+                    <div class="stories" id="stories">
+                    </div>
+                </div>
+                <div class="new_post" id="newPost">
+                </div>
+            </div>
+            <div class="body_right">
+                <div class="account">
+                    <div class="info_user">
+                        <div class="user_logo">
+                            <img class="user_j" src="img/user_logo.png">
+                        </div>
+                        <div class="info_name">
+                            <b>J.developer</b>
+                            <span>Juan de Santos</span>
+                        </div>
+                        <div class="change_account">
+                            <a>Wechseln</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="suggestion">
+                    <div class="options">
+                        <a>Vorschläge für dich</a>
+                        <a>Alle ansehen</a>
+                    </div>
+                </div>
+                <div class="other_users">
+                    <div class="array_users" id="array_users">
+                        Array users
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="footer_info">
+                        <a>Atributes</a><br>
+                            <a>Icons :</a>
+                            <a target="_blank" href="https://icons8.com/icon/Dg3SFdmiZnzp/arrow">Arrow</a><a> icon
+                                by</a> <a target="_blank" href="https://icons8.com">Icons8</a><br>
+                            <a>Foto por formulario PxHere</a>
+                            <br>
+                            <a>© Copyright 2022 by Juan de Santos. All Rights Reserved.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive_menu" >
+        <div class="icons_right">
+            <div class="icons_header">
+                <img class="icons" src="icons/home.png" alt="">
+            </div>
+            <div class="icons_header">
+                <img class="icons" src="icons/senden.png" alt="">
+            </div>
+            <div class="icons_header">
+                <img class="icons" src="icons/plus.png" alt="">
+            </div>
+            <div class="icons_header">
+                <img class="icons" src="icons/kompass.png" alt="">
+            </div>
+            <div class="icons_header">
+                <img class="icons" src="icons/like.png" alt="">
+            </div>
+            <div class="icons_header">
+                <img class="icons" src="icons/user.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    includeHTML();
+</script>
+
+</html>
+
+
+

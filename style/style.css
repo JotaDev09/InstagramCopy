@@ -1,0 +1,427 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* header */
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(245, 245, 245);
+    position: fixed;
+}
+
+.header_left {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.logo_j {
+    height: 50px;
+}
+
+.header_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+.search {
+    height: 40px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.lupe {
+    height: 18px;
+    padding-right: 5px;
+    padding-top: 4px;
+}
+
+.input_search {
+    width: 200px;
+    border: none;
+    padding-left: 5px;
+    outline: none;
+}
+
+.header_right {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.icons_right {
+    display: flex;
+}
+
+.icons_header {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icons{
+    height: 30px;
+    cursor: pointer;
+}
+
+.icons_h{
+    height: 31px;
+    cursor: pointer;
+}
+
+.responsive_menu {
+    display: none;
+}
+
+/* body */
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: -2%;
+    padding-top: 55px;
+}
+
+.body_left {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-right: 15px;
+}
+
+.body_right {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+/* stories */
+.stories_padding {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.stories {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    border: 0.5px solid rgba(0, 0, 0, 0.367);
+    border-radius: 12px;
+}
+
+.new_story {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user {
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    background-color: white;
+    object-position: center;
+}
+
+.user_name {
+    font-size: 12px;
+}
+
+/* posts */
+.new_post {
+    padding-top: 10px;
+}
+
+.all_posts {
+    padding-bottom: 20px;
+}
+
+.posts {
+    height: auto;
+    background-color: rgb(245, 245, 245);
+    border: 0.5px solid rgba(0, 0, 0, 0.367);
+    border-radius: 12px;
+}
+
+.post_header {
+    background-color: rgb(245, 245, 245);;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profil_img_post {
+    display: flex;
+    align-items: center;
+}
+
+.img_user {
+    padding: 10px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    object-position: center;
+}
+
+.name_user {
+    font-size: 12px;
+    color: rgb(42, 42, 121);
+}
+
+.loc_user {
+    font-size: 11px;
+    color: grey;
+}
+
+.points {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icon_points {
+    height: 14px;
+}
+
+.img_post {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons_like {
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.d-none {
+    display: none;
+}
+
+.icons_img {
+    height: 28px;
+    padding: 6px;
+}
+
+.icons_img2 {
+    height: 24px;
+    padding: 5px;
+}
+
+.like {
+    padding: 7px;
+}
+
+.likes {
+    font-size: 12px;
+    color: rgb(42, 42, 121);;
+}
+
+.untertitle {
+    display: flex;
+    padding: 7px;
+}
+
+.utitle {
+    font-size: 12px;
+}
+
+.untertitle b {
+    color: rgb(42, 42, 121);;
+}
+
+.comments_people {
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+}
+
+.all_comments {
+    font-size: 12px;
+}
+
+.all_comments b {
+    color: rgb(42, 42, 121);;
+}
+
+.new_comments {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.new_comment {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+}
+
+.inputName{
+    padding-top: 10px;
+    width: 80px;
+    background: transparent;
+    border: none;
+    font-size: 12px;
+    outline: none;
+}
+
+.inputComment{
+    width: 282px;
+    background: transparent;
+    border: none;
+    font-size: 12px;
+    outline: none;
+}
+
+.add{
+    background: transparent;
+    border: none;
+    font-size: 12px;
+    color: rgb(42, 42, 121);
+    cursor: pointer;
+}
+
+/* account */
+.account {
+    padding-top: 40px;
+}
+
+.info_user {
+    width: 350px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_j {
+    height: 60px;
+}
+
+.user_logo {
+    padding: 10px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.info_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info_name {
+    width: 60%;
+    padding: 10px;
+}
+
+.info_name b{
+    color: rgb(42, 42, 121);
+}
+
+.info_name span {
+    color: grey;
+}
+
+.change_account {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(42, 42, 121);
+}
+
+.options {
+    width: 350px;
+    padding-top: 10px;
+    color: grey;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between
+}
+
+/* users folgen */
+.other_users {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.array_users {
+    width: 350px;
+    height: 250px;
+    /*background-color: rgb(245, 245, 245);*/
+}
+
+.new_Users {
+    display: flex;
+    justify-content: space-between;
+}
+
+.other_User {
+    display: flex;
+    align-items: center;
+}
+
+.other_Img {
+    padding: 4px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    object-position: center;
+}
+
+.other_Name {
+    padding: 4px;
+    font-size: 13px;
+} 
+
+.folg {
+    display: flex;
+    align-items: center;
+}
+
+.folgen {
+    font-size: 12px;
+    padding: 4px;
+    color: rgb(42, 42, 121);
+}
+
+/* footer */
+.footer {
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer_info a{
+    font-size: 10px;
+}
